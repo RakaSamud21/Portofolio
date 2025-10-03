@@ -69,9 +69,10 @@ export default function LoginPage() {
       </form>
       </div>
     <div className="flex-1 bg-[url('/src/assets/Background.png')] bg-contain bg-no-repeat bg-center flex items-center justify-center">
-    <img src="/src/assets/Roket.png" alt="Roket" className="m-40 w-100 h-100"/>
+    <img src='/src/assets/Roket.png' alt="Roket" className="m-40 w-100 h-100"/>
         </div>
     </div>
   );
 }
+
 
