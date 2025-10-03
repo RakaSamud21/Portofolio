@@ -36,8 +36,8 @@ export default function LoginPage() {
           Log in
         </h2>
          <h2 className="text-white text-xl mb-15 text-start">
-          Username : admin<br>
-          Password : admin123</br>
+          Username : admin<br/>
+          Password : admin123
         </h2>
         <h3 className="text-white text-md text-start mb-2">
           Username
@@ -76,6 +76,7 @@ export default function LoginPage() {
     </div>
   );
 }
+
 
 
 
