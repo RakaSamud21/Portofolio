@@ -27,16 +27,17 @@ export default function LoginPage() {
 
   return (
     <div className="flex h-screen bg-black">
-       <a onClick={() => alert("Username : admin, Password : admin123")}>
-  Username : admin, Password : admin123
-</a>
       <div className="flex-1 flex items-center justify-start">
       <form
         onSubmit={handleSubmit}
         className="bg-black p-6 rounded-2xl shadow-lg w-80"
       >
-        <h2 className="text-white text-xl font-bold mb-15 text-start">
+        <h2 className="text-white text-xl mb-15 text-start">
           Log in
+        </h2>
+         <h2 className="text-white text-xl mb-15 text-start">
+          Username : admin<br>
+          Password : admin123</br>
         </h2>
         <h3 className="text-white text-md text-start mb-2">
           Username
@@ -75,6 +76,7 @@ export default function LoginPage() {
     </div>
   );
 }
+
 
 
 
