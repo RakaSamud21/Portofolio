@@ -27,6 +27,7 @@ function HomePage() {
           <span className="bg-blue-500 text-white px-2">jangan lupa</span> untuk
           tetap Bersedekah
         </h1>
+        <a href="https://game-seven-mauve.vercel.app/" target="_blank" rel="noopener noreferrer">Pencet Ini</a>
       </div>
     </div>
   );
